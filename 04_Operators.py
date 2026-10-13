@@ -42,5 +42,21 @@ print(a and b)
 print(a or b)
 print(not a)
 
-
-
+#
+print(17//5)
+print(17%5)
+print(2**4 )
+print(10/5)
+bill=float(input("enter the bill amount:"))
+friends=int(input("total number of friends:"))
+print("----------------------")
+print("service (10%):", bill * 0.1)
+print("grand total:",bill + (bill * 0.1))
+print("each friend pays:", (bill + (bill * 0.1))/friends)
+a=10
+b=5
+temp=a
+b=a
+b=temp
+print("a is ",a)
+print("=" * 30)
