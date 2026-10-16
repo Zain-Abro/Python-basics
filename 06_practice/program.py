@@ -7,3 +7,10 @@ elif unitused>100 and unitused<=200:
 elif unitused>200:
     print("The total cost is: 20 per unit")
 print("the bill is :",y*15)
+
+
+day=input("enter the day of the week:")
+if day =="sunday" or day=="Sunday" or day=="saturday" or day=="Saturday":
+    print("it is the weekend day")
+else:
+    print("it is not the weekend day")

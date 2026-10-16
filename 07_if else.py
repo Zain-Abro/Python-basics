@@ -1,3 +1,4 @@
+
 temp=float(input("TEMP:"))
 if temp>35:
     print("it is hot day")
@@ -23,6 +24,20 @@ if marks>=50:
     print("pass")
 else:
     print("fail")
+
+
+
+bil=float(input("bill amount:  "))
+friends=int(input("number of friends:  "))
+print("___________________")
+print("Service charge: 10%")
+a=bil*0.1
+print("Service charge amount:",a)
+grandtotal=bil+a
+print("Grand total:",grandtotal)
+print("Each friend has to pay:",grandtotal/friends)
+
+
 
 
 
