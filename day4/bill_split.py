@@ -1,0 +1,6 @@
+bill = float(input("enter the bill amount:"))
+friends = int(input("total number of friends:"))
+print("----------------------")
+print("service (10%):", bill * 0.1)
+print("grand total:", bill + (bill * 0.1))
+print("each friend pays:", (bill + (bill * 0.1)) / friends)
